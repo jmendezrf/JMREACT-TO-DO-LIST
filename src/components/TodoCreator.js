@@ -33,11 +33,12 @@ export class TodoCreator extends Component {
           name="task"
           required></input>
            <small id="Help" 
-          class="form-text text-muted">
+          className="form-text text-muted">
             You Must to fill this box to activate the button.</small>
           <button disabled={!this.state.newItemText}  onClick={this.createNewTodo} className="btn btn-primary mt-1">
              Add Task
           </button>
+          
 
   </div>
     

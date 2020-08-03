@@ -3,6 +3,8 @@ import {TodoBanner} from './components/TodoBanner';
 import {TodoCreator} from './components/TodoCreator';
 import {TodoRow} from './components/TodoRow';
 import {VisibiltyControl} from './components/VisibiltyControl'
+import logo from './logo.svg';
+import './App.css';
 
 export default class App extends Component {
 
@@ -103,8 +105,10 @@ export default class App extends Component {
         <div className="container py-5">
           <div className="row">
             <div className="col-sm">
+            <img src={logo} className="App-logo" alt="logo"/>   
              <TodoCreator callBack={this.createNewTodo}></TodoCreator>
-            </div>
+                  
+              </div>
             <div className="col-sm">
             <table className="table table-striped table-bordered">
               <thead>
