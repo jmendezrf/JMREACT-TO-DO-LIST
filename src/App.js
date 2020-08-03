@@ -135,7 +135,7 @@ export default class App extends Component {
               callBack={(checked) =>
               this.setState({
                 showCompleted:checked
-              })}
+              },() => localStorage.setItem('todos', JSON.stringify(this.state))) }
               />
           </div>
             {this.state.showCompleted && <table className="table table-striped table-bordered">
