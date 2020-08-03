@@ -10,7 +10,8 @@ clone the repository
 git clone <url> 
 ```
 
-c
+
+Use the package manager npm to install dependencies
 ```bash
 npm install 
 ```
