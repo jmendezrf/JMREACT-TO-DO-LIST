@@ -17,7 +17,7 @@ export default class App extends Component {
                   {action: "Create WebPage", done:false},
                   {action: "Go run", done:false}],
       //newItemText:""
-      showCompleted: true
+      showCompleted: false
     }
   }
 
@@ -92,7 +92,7 @@ export default class App extends Component {
                   {action: "Create WebPage", done:false},
                   {action: "Go run", done:false}],
       //newItemText:""
-      showCompleted: true
+      showCompleted: false
     })
  }
 
